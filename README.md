@@ -1,6 +1,6 @@
 # GIFT: Gibbs Initialization with Finite Temperature
 
-GIFT is a unified post-training framework that addresses the intrinsic optimization mismatch in the prevailing SFT $\to$ RL paradigm, which reconstructs SFT by injecting supervision as a finite-temperature energy potential, creating a distributional bridge that preserves base priors while ensuring consistency with global post-training objectives.
+GIFT is a unified post-training framework that addresses the intrinsic optimization mismatch in the prevailing SFT $\to$ RL paradigm, which replaces traditional one-hot sft with Gibbs distribution at finite temperature, creating a distributional bridge that preserves base priors while ensuring consistency with global post-training objectives.
 
 ## Installation
 
