@@ -1,0 +1,35 @@
+# Training outputs
+outputs/
+wandb/
+train_results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Data files (add your data here)
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# Checkpoints
+*.pt
+*.ckpt
+checkpoints/
